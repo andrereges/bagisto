@@ -57,7 +57,7 @@ return [
             'btn-add-content' => 'Add Conteúdo',
             'save-btn-title' => 'Salvar Conteúdo',
             'autocomplete' => '[Autocompletar]',
-            'no-result-found' => 'Nenhum registo encontrado.',
+            'no-result-found' => 'Nenhum registro encontrado.',
             'search-hint' => 'Busque produtos aqui...',
             'mass-delete-success' => 'Conteúdo selecionado excluído com sucesso.',
             'tab' => [
@@ -96,7 +96,7 @@ return [
             'home-page-content' => 'Conteúdo da Página Inicial',
             'footer-left-content' => 'Conteúdo Rodapé Esquerdo',
             'subscription-content' => 'Conteúdo da Barra de Inscrição',
-            'sidebar-categories' => 'Sidebar Categories',
+            'sidebar-categories' => 'Categorias da Barra Lateral',
             'footer-left-raw-content' => '<p>We love to craft softwares and solve the real world problems with the binaries. We are highly committed to our goals. We invest our resources to create world class easy to use softwares and applications for the enterprise business with the top notch, on the edge technology expertise.</p>',
             'slider-path' => 'Caminho do Slider',
             'category-logo' => 'Logo da Categoria',
@@ -162,7 +162,7 @@ return [
         'all-categories' => 'Toda Loja',
         'search-text' => 'Pesquise produtos aqui',
         'welcome-message' => 'Bem-vindo, :customer_name',
-        'dropdown-text' => 'Configurar Carrinho, Pedidos & Listas de Desejo',
+        'dropdown-text' => 'Configurar Carrinho, Pedidos e Listas de Desejo',
         'sign-in' => 'Entrar',
         'sign-up' => 'Criar Conta'
     ],
@@ -206,7 +206,7 @@ return [
             'new-customer' => 'Novo cliente',
             'customer-login' => 'Login do cliente',
             'registered-user' => 'Usuário Registrado',
-            'your-email-address' => 'Seu endereço de email',
+            'your-email-address' => 'Seu endereço de e-mail',
             'form-login-text' => 'Se você possui uma conta, entre com seu endereço de e-mail.',
         ],
         'signup-form' => [
@@ -225,7 +225,7 @@ return [
 
     'error' => [
         'go-to-home' => 'Vá para Página Inicial',
-        'something_went_wrong' => 'algo deu errado',
+        'something_went_wrong' => 'Algo deu errado',
         'page-lost-short' => 'Conteúdo perdido da página',
         'page-lost-description' => "A página que você está procurando não está disponível. Tente pesquisar novamente ou use o botão Voltar abaixo.",
     ],
@@ -239,8 +239,8 @@ return [
         'quick-view' => 'Olhada rápida',
         'submit-review' => 'Enviar revisão',
         'not-available' => 'Não disponível',
-        'ratings' => ':total Ratings Avaliações',
-        'reviews-count' => ':total Reviews Avaliações',
+        'ratings' => ':total Avaliações',
+        'reviews-count' => ':total Visualizações',
         'more-infomation' => 'Mais Informações',
         'short-description' => 'Descrições breves',
         'customer-rating' => 'Avaliação do cliente',
@@ -252,8 +252,8 @@ return [
 
     'shop' => [
         'gender' => [
-            'female' => 'Mulher',
-            'male' => 'Homem',
+            'female' => 'Feminino',
+            'male' => 'Masculino',
             'other' => 'Outro',
         ],
         'general' => [
