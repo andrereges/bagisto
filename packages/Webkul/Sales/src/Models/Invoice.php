@@ -10,9 +10,9 @@ class Invoice extends Model implements InvoiceContract
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
     protected $statusLabel = [
-        'pending'  => 'Pending',
-        'paid'     => 'Paid',
-        'refunded' => 'Refunded',
+        'pending'  => 'Pendente',
+        'paid'     => 'Pago',
+        'refunded' => 'Devolvido',
     ];
 
     /**

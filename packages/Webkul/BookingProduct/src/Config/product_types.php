@@ -3,7 +3,7 @@
 return [
     'booking' => [
         'key'   => 'booking',
-        'name'  => 'Booking',
+        'name'  => 'À Reservar',
         'class' => 'Webkul\BookingProduct\Type\Booking',
         'sort'  => 7,
     ]

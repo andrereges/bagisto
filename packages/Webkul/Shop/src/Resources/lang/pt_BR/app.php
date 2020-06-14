@@ -275,7 +275,7 @@ return [
                     'item-invoice' => 'Faturados (:qty_invoiced)',
                     'item-shipped' => 'enviados (:qty_shipped)',
                     'item-canceled' => 'Cancelados (:qty_canceled)',
-                    'item-refunded' => 'Refunded (:qty_refunded)',
+                    'item-refunded' => 'Devolvido (:qty_refunded)',
                     'price' => 'Preço',
                     'total' => 'Total',
                     'subtotal' => 'Subtotal',
@@ -302,10 +302,10 @@ return [
                     'bill-to' => 'Cobrança de',
                     'ship-to' => 'Enviar para',
                     'contact' => 'Contato',
-                    'refunds' => 'Refunds',
-                    'individual-refund' => 'Refund #:refund_id',
-                    'adjustment-refund' => 'Adjustment Refund',
-                    'adjustment-fee' => 'Adjustment Fee',
+                    'refunds' => 'Reembolsos',
+                    'individual-refund' => 'Reembolso #:refund_id',
+                    'adjustment-refund' => 'Reembolso de Ajuste',
+                    'adjustment-fee' => 'Taxa de Ajuste',
                 ]
             ],
 
@@ -359,6 +359,7 @@ return [
 
     'products' => [
         'layered-nav-title' => 'Compre por',
+        'to' => 'Até',
         'price-label' => 'Tão baixo quanto',
         'remove-filter-link-title' => 'Limpar Todos',
         'sort-by' => 'Ordernar por',
@@ -375,6 +376,7 @@ return [
         'total-reviews' => ':total Avaliação',
         'total-rating' => ':total_rating Notas & :total_reviews Avaliações',
         'by' => 'Por :name',
+        'to' => 'Até',
         'up-sell-title' => 'Encontramos outros produtos que você pode gostar!',
         'related-product-title' => 'Produtos Relacionados',
         'cross-sell-title' => 'Mais escolhas',
@@ -393,13 +395,18 @@ return [
         'view-all' => 'Ver Tudo',
         'select-above-options' => 'Por favor, selecione as opções acima primeiro.',
         'less-quantity' => 'A quantidade não pode ser menor que um.',
+        'samples' => 'Amostras',
+        'links' => 'Links',
+        'sample' => 'Amostra',
+        'name' => 'Nome',
+        'qty' => 'Qtd',
         'starting-at' => 'Começando às',
         'customize-options' => 'Personalizar opções',
         'choose-selection' => 'Escolha uma seleção',
         'your-customization' => 'Sua personalização',
         'total-amount' => 'Valor total',
         'none' => 'Nenhum',
-        'available' => 'Available'
+        'available' => 'Disponível'
     ],
 
     // 'reviews' => [
@@ -431,7 +438,7 @@ return [
             'remove-link' => 'Remover',
             'move-to-wishlist' => 'Mover para Lista de Desejos',
             'move-to-wishlist-success' => 'Item Movido para Lista de Desejos',
-            'move-to-wishlist-error' => 'Não foi possivel Mover Item para Lista de Desejos, Por favor, tente novamente mais tarde',
+            'move-to-wishlist-error' => 'Não foi possível Mover Item para Lista de Desejos, Por favor, tente novamente mais tarde',
             'add-config-warning' => 'Por favor, selecione a opção antes de adicionar ao carrinho',
             'quantity' => [
                 'quantity' => 'Quantidade',
@@ -575,8 +582,8 @@ return [
         ],
 
         'refund' => [
-            'heading' => 'Your Refund #:refund_id for Order #:order_id',
-            'subject' => 'Refund for your order #:order_id',
+            'heading' => 'Seu Reembolso #:refund_id para o Pedido #:order_id',
+            'subject' => 'Reembolso para seu pedido #:order_id',
             'summary' => 'Resumo do reembolso',
             'adjustment-refund' => 'Reembolso de ajuste',
             'adjustment-fee' => 'Taxa de ajuste'

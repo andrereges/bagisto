@@ -67,10 +67,10 @@ return [
                 'type'       => 'select',
                 'options'    => [
                     [
-                        'title' => 'Per Unit',
+                        'title' => 'Por Unidade',
                         'value' => 'per_unit',
                     ], [
-                        'title' => 'Per Order',
+                        'title' => 'Por Pedido',
                         'value' => 'per_order',
                     ]
                 ],

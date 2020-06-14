@@ -383,6 +383,7 @@ return [
         'total-reviews' => ':total Reviews',
         'total-rating' => ':total_rating Ratings & :total_reviews Reviews',
         'by' => 'By :name',
+        'to' => 'To',
         'up-sell-title' => 'We found other products you might like!',
         'related-product-title' => 'Related Products',
         'cross-sell-title' => 'More choices',

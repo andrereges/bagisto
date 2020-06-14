@@ -73,7 +73,7 @@ return [
         'taxes' => 'Impostos',
         'tax-categories' => 'Categorias de Impostos',
         'tax-rates' => 'Impostos de Impostos',
-        'promotion' => 'Promoções',
+        'promotions' => 'Promoções',
         'discount' => 'Desconto',
         'cms' => 'CMS'
     ],
@@ -205,7 +205,7 @@ return [
         'order_number' => 'Número do pedido',
         'refund-date' => 'Data do reembolso',
         'refunded' => 'Devolveu',
-        'start' => 'Começar',
+        'start' => 'Começo',
         'end' => 'Fim',
         'active' => 'Ativo',
         'inactive' => 'Inativo',
@@ -362,15 +362,14 @@ return [
             'tax' => 'Imposto',
             'tax-percent' => 'Percentual Imposto',
             'tax-amount' => 'Valor de Imposto',
-            'discount-amount' => 'Discount Amount',
             'discount-amount' => 'Valor de Desconto',
             'grand-total' => 'Total',
             'total-paid' => 'Total Pago',
             'total-refunded' => 'Total Estornado',
             'total-due' => 'Total Devido',
-            'cancel-confirm-msg' => 'Tem certeza que deseja cancelar esse pedido ?',
-            'refunds' => 'Refunds',
-            'refunded' => 'Refunded'
+            'cancel-confirm-msg' => 'Tem certeza que deseja cancelar esse pedido?',
+            'refund-btn-title' => 'Reembolso',
+            'refunds' => 'Reembolsos'
         ],
 
         'invoices' => [
@@ -444,8 +443,7 @@ return [
             'status' => 'Status',
             'action' => 'Açao',
             'view-title' => 'Reembolso #:refund_id',
-            'invalid-refund-amount-error' => 'Refund amount should be non zero.'
-
+            'invalid-refund-amount-error' => 'O valor do reembolso deve ser diferente de zero.'
         ]
     ],
 
@@ -607,8 +605,8 @@ return [
             'position' => 'Posição',
             'display-mode' => 'Modo de exibição',
             'products-and-description' => 'Produtos e Descrição',
-            'products-only' => 'Apenas produtos',
-            'description-only' => 'Apenas descrição',
+            'products-only' => 'Apenas Produtos',
+            'description-only' => 'Apenas Descrição',
             'description-and-images' => 'Descrição e Imagens',
             'description' => 'Descrição',
             'parent-category' => 'Categoria Pai',
@@ -978,7 +976,7 @@ return [
         ]
     ],
 
-    'promotion' => [
+    'promotions' => [
         'cart-rules' => [
             'title' => 'Regras do carrinho',
             'add-title' => 'Adicionar regra de carrinho',
@@ -1199,9 +1197,9 @@ return [
     'response' => [
         'being-used' => 'Este recurso :name está sendo usado em :source',
         'cannot-delete-default' => 'Não é possível excluir o canal padrão',
-        'create-success' => ':name criado com sucesso.',
-        'update-success' => ':name atualizaco com sucesso.',
-        'delete-success' => ':name excluído com sucesso.',
+        'create-success' => ':name criada(o) com sucesso.',
+        'update-success' => ':name atualizada(o) com sucesso.',
+        'delete-success' => ':name excluída(o) com sucesso.',
         'delete-failed' => 'Erro encontrado ao excluir :name.',
         'last-delete-error' => 'Ao menos um :name é obrigatório.',
         'user-define-error' => 'Não pode excluir o sistema :name',
